@@ -15,9 +15,9 @@
           </div>
           <nav class="hidden md:flex md:flex-grow justify-center">
             <ul class="flex justify-center space-x-4 text-white">
-              <li><nuxt-link to="/" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link></li>
-              <li><nuxt-link to="/contactform" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link></li>
-              <li><nuxt-link to="/impressum" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link></li>
+              <li><nuxt-link to="/" class="hover:text-secondary font-bold dark:text-white dark:hover:text-secondary">Home</nuxt-link></li>
+              <li><nuxt-link to="/contactform" class="hover:text-secondary font-bold dark:text-white dark:hover:text-secondary">Kontakt</nuxt-link></li>
+              <li><nuxt-link to="/impressum" class="hover:text-secondary font-bold dark:text-white dark:hover:text-secondary">Impressum</nuxt-link></li>
             </ul>
           </nav>
           <div class="hidden lg:flex items-center space-x-4">

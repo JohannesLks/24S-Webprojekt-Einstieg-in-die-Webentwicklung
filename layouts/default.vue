@@ -15,9 +15,19 @@
           </div>
           <nav class="hidden md:flex md:flex-grow justify-center">
             <ul class="flex justify-center space-x-4 text-white">
-              <li><nuxt-link to="/" class="hover:text-secondary font-bold dark:text-white dark:hover:text-secondary">Home</nuxt-link></li>
-              <li><nuxt-link to="/contactform" class="hover:text-secondary font-bold dark:text-white dark:hover:text-secondary">Kontakt</nuxt-link></li>
-              <li><nuxt-link to="/impressum" class="hover:text-secondary font-bold dark:text-white dark:hover:text-secondary">Impressum</nuxt-link></li>
+              <li>
+                <nuxt-link to="/" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Home</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/contactform" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Kontakt</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/impressum" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Impressum</nuxt-link>
+              </li>
+              <!-- Externer Link zu security.pontis-it.com -->
+              <li>
+                <a href="https://security.pontis-it.com" target="_blank" rel="noopener" class="text-red-pontis hover:text-red-pontis-hover font-bold dark:text-red-pontis dark:hover:text-red-pontis-hover">Pontis Security</a>
+              </li>
             </ul>
           </nav>
           <div class="hidden lg:flex items-center space-x-4">
@@ -45,9 +55,18 @@
           </svg>
         </button>
         <ul class="w-full text-center dark:text-white">
-          <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link></li>
-          <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/contactform" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link></li>
-          <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/impressum" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link></li>
+          <li class="border-b border-gray-300 dark:border-gray-600 py-4">
+            <nuxt-link to="/" @click="closeMenu" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link>
+          </li>
+          <li class="border-b border-gray-300 dark:border-gray-600 py-4">
+            <nuxt-link to="/contactform" @click="closeMenu" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link>
+          </li>
+          <li class="border-b border-gray-300 dark:border-gray-600 py-4">
+            <nuxt-link to="/impressum" @click="closeMenu" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link>
+          </li>
+          <li class="border-b border-gray-300 dark:border-gray-600 py-4">
+            <a href="https://security.pontis-it.com" target="_blank" rel="noopener" @click="closeMenu" class="text-red-pontis hover:text-red-pontis-hover font-bold dark:text-red-pontis dark:hover:text-red-pontis-hover">Pontis Security</a>
+          </li>
         </ul>
         <div class="flex flex-col mt-6 space-y-2 items-center dark:text-white">
           <div class="flex flex-col justify-center ml-3">

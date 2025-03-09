@@ -111,31 +111,31 @@
     </div>
   </section>
 
-  <!-- Projekte Abschnitt -->
-  <section id="projects" class="bg-white dark:bg-gray-900 py-16">
+  <!-- Zertifizierungen Abschnitt -->
+  <section id="certifications" class="bg-white dark:bg-gray-900 py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-center text-3xl font-bold text-gray-900 dark:text-white mb-6">
-        Meine Projekte
+        Meine Zertifizierungen
       </h2>
       <div class="flex flex-wrap justify-center items-center gap-6">
-        <div class="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
-          <img src="/project1.png" alt="Projekt 1" class="h-32 w-auto mx-auto">
-          <p class="mt-4 text-center text-gray-700 dark:text-gray-300">
-            IT-Infrastruktur Optimierung
-          </p>
-        </div>
-        <div class="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
-          <img src="/project2.png" alt="Projekt 2" class="h-32 w-auto mx-auto">
-          <p class="mt-4 text-center text-gray-700 dark:text-gray-300">
-            Softwareentwicklung
-          </p>
-        </div>
-        <div class="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
-          <img src="/project3.png" alt="Projekt 3" class="h-32 w-auto mx-auto">
-          <p class="mt-4 text-center text-gray-700 dark:text-gray-300">
-            Systemadministration
-          </p>
-        </div>
+        <a href="https://www.credly.com/badges/2d310799-8998-4f13-9577-5602743f20ca/public_url">
+          <img src="/cert1.png" alt="Zertifikat 1" class="h-32 w-auto">
+        </a>
+        <a href="https://www.credly.com/badges/26f848b4-ef30-4d05-9aaa-ba9f7bbe7616/public_url">
+          <img src="/cert2.png" alt="Zertifikat 2" class="h-32 w-auto">
+        </a>
+        <a href="https://www.credly.com/badges/bac7bc40-c363-4735-8274-8b4b4a960647/public_url">
+          <img src="/cert3.png" alt="Zertifikat 3" class="h-32 w-auto">
+        </a>
+        <a href="https://www.credly.com/badges/e4dc6b15-8018-4167-ae1f-74a9c157f1f6/public_url">
+          <img src="/cert4.png" alt="Zertifikat 4" class="h-32 w-auto">
+        </a>
+        <a href="https://www.credly.com/badges/6756411a-0b69-4e5c-acf7-256d51fb65e9/public_url">
+          <img src="/cert5.png" alt="Zertifikat 5" class="h-32 w-auto">
+        </a>
+        <a href="https://www.credly.com/badges/eac6ae02-90fa-4040-b98d-16d83ecd452c/public_url">
+          <img src="/cert6.png" alt="Zertifikat 6" class="h-32 w-auto">
+        </a>
       </div>
     </div>
   </section>

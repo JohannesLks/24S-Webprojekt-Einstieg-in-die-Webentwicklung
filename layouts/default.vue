@@ -26,7 +26,7 @@
               </li>
               <!-- Externer Link zu security.pontis-it.com -->
               <li>
-                <a href="https://security.pontis-it.com" target="_blank" rel="noopener" class="text-red-pontis hover:text-red-pontis-hover font-bold dark:text-red-pontis dark:hover:text-red-pontis-hover">Pontis Security</a>
+                <a href="https://pontis-security.com" target="_blank" rel="noopener" class="text-red-pontis hover:text-red-pontis-hover font-bold dark:text-red-pontis dark:hover:text-red-pontis-hover">Pontis Security</a>
               </li>
             </ul>
           </nav>

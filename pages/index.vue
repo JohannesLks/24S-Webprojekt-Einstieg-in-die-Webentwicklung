@@ -130,6 +130,9 @@
         <a href="https://www.credly.com/badges/e4dc6b15-8018-4167-ae1f-74a9c157f1f6/public_url">
           <img src="/cert4.png" alt="Zertifikat 4" class="h-32 w-auto">
         </a>
+        <a href="https://www.credly.com/badges/2bdd0ab7-f079-4e08-9718-002b9f829754/public_url">
+          <img src="/cert7.png" alt="Zertifikat 7" class="h-32 w-auto">
+        </a>
         <a href="https://www.credly.com/badges/6756411a-0b69-4e5c-acf7-256d51fb65e9/public_url">
           <img src="/cert5.png" alt="Zertifikat 5" class="h-32 w-auto">
         </a>
